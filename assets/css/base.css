@@ -1,0 +1,49 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --t-color-white:#fff;
+    --t-color-black:#000;
+    --t-color-616161:#616161;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+img{
+    display: block;
+    object-fit: cover;
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Oswald' !important;
+}
+
+hmtl,header,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 62.5%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

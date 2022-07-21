@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1024px) {
+    .content{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .content-left,.content-right{
+        width: 100% !important;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 760px) {
+    nav{
+        display: none !important;
+    }
+    .post__comment{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .post__comment--id{
+        padding: 16px 0;
+    }
+}
