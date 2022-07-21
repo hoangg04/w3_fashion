@@ -21,3 +21,17 @@
         padding: 16px 0;
     }
 }
+@media only screen and (max-width: 400px) {
+    #subcribe{
+        display: none !important;
+    }
+    .header__image--text{
+        display: none !important;
+    }
+    .brand_title{
+        font-size: 20px !important;
+    }
+    .brand_sub-title{
+        font-size: 15px;
+    }
+}
